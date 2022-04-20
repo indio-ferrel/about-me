@@ -3,9 +3,9 @@
 body {
     /* feel free to update these css variables for a quick theme */
 
-    --color1: white;
-    --color2: white;
-    --color3: white;
+    --color1: hsl(0, 0%, 0%);
+    --color2: lightsalmon;
+    --color3: rgb(23, 23, 23);
     --color4: white;
     --color5: white;
 
@@ -28,8 +28,8 @@ body {
     --gutter: 30px;
     --footer-height: 30px;
 
-    font-family: 'Hubballi', cursive;;
-    background-color: var(--color2);
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--color1);
 }
 
 main {
@@ -38,10 +38,19 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    color: var(--color2);
+}
+
+.my-style {
+    background-color: var(--color3);
+}
+
+.hidden {
+    display: none;
 }
 
 section {
-    background-color: var(--color5);
+    background-color: var(--color1);
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -60,6 +69,7 @@ header {
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    color: var(--color2);
 }
 
 h2 {
@@ -87,4 +97,5 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+    color: var(--color2);
 }
