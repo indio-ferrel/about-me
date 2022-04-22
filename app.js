@@ -12,6 +12,11 @@ const animalDiv = document.getElementById('animal-div');
 
 animalButton.addEventListener('click', () => {
     animalDiv.classList.toggle('hidden');
+    if (animalButton.innerHTML === 'Show Animal') {
+        animalButton.innerHTML = 'Hide Animal';
+    } else {
+        animalButton.innerHTML = 'Hide Animal';
+    }
 });
     // get user input
     // use user input to update state 
