@@ -8,6 +8,15 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 
 1. **Make a drawing of your app. Simple "wireframes"**
 1. **Once you have a drawing, name the HTML elements you'll need to realize your vision**
+  * A header element containing a head*ing* element to name the page.
+  * A main element containing all of the following:
+    * A heading element stating my name.
+    * A paragraph element with details.
+    * I intended to keep the button that toggles my name in the heading, but the deliverable instructions don't mention that, so I may remove it.
+    * Possibly spans in the paragraph element to add emphasis to details (with classes like "italics" and "bold").
+    * A button with id "button" or "btn".
+    * A div with id "animalDiv" and class "hidden".
+
 1. **For each HTML element ask: Why do I need this?**
 1. **Once we know _why_ we need each element, think about how to implement the "Why" as a "How"**
 1. **Find all the 'events' (user clicks, form submit, on load etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change?**

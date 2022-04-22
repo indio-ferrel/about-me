@@ -5,20 +5,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-        <link rel="stylesheet" href="./styles/style.css" />
-       
+        <link rel="stylesheet" href="./styles/style.css" />      
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"> 
 
-        <title>Cool Web</title>
+        <title>About Me</title>
     </head>
 
     <body>
         <header>
-            <h1>Cool Web Project</h1>
+            <h1>About Me</h1>
         </header>
 
-        <main></main>
+        <main>
+            <section id="my-info">
+                <h2>Hi, I'm <span id="name">Indio</span></h2>
+                <p>
+                    I use he/him pronouns.  I live in Tigard, OR.
+                </p>
+                <!-- <button id="button">Change Name</button> -->
+            </section>
+            <section id="animal-style">
+                <p>My favorite animal is...</p>
+                <div id="animal-div" class="hidden">
+                    <p>Well, that's about as hard to pick as a favorite food, but the domestic cat is pretty great.</p>
+                    <img src="http://placekitten.com/500/300" alt="an image of a cat" />
+                
+                </div>
+                <button id="animal-button">Show Animal</button>
+        </section>
+        </main>
 
-        <footer>&copy; 2021 Aspiring Software Developer</footer>
+        <footer>&copy; 2022 Aspiring Software Developer</footer>
 
         <script type="module" src="./app.js"></script>
     </body>
